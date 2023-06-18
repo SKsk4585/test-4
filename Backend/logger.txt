@@ -24,3 +24,29 @@
 ----------------------------
 18.6.2023, 20:18:23 	 TasksModel validation failed: Done: Done is required
 ----------------------------
+18.6.2023, 21:17:12 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:17:20 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:17:45 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:17:51 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:17:59 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:18:07 	 Route /api/genre/ not exist
+----------------------------
+18.6.2023, 21:18:22 	 Route /api/genre/ not exist
+----------------------------
+18.6.2023, 21:18:27 	 Route /api/genre/ not exist
+----------------------------
+18.6.2023, 21:18:32 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:18:36 	 Route /api/books/ not exist
+----------------------------
+18.6.2023, 21:18:39 	 Route /api/genre/ not exist
+----------------------------
+18.6.2023, 21:25:01 	 TasksModel validation failed: Done: Cast to Boolean failed for value "ASDRFGYHUJIK" (type string) at path "Done" because of "CastError"
+----------------------------
+18.6.2023, 21:29:29 	 TasksModel validation failed: Done: Done is required
+----------------------------
