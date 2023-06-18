@@ -1,0 +1,33 @@
+<div>
+
+
+    <form (ngSubmit)="send()" ngNativeValidate>
+        <h3>Add a task</h3>
+        <select [(ngModel)]="newTask.customerId" name="customerId">
+            
+           
+            <option *ngFor="let c of customer" value={{c._id}}>{{c.Occupation}}</option>
+        </select>
+
+        <label>task</label>
+        <input type="text" [(ngModel)]="newTask.name" name="name" placeholder="name" required/>
+       
+        <label>DESCRIPTION</label>
+        <input type="text" [(ngModel)]="newTask.description" name="description" placeholder="description" required/>
+        
+        <label>DATE</label>
+        <input type="date" [(ngModel)]="newTask.date" name="date" placeholder="date" required/>
+        
+        <!-- <label>Occupation</label>
+        <input type="Occupation" [(ngModel)]="newTask.Occupation" name="Occupation" placeholder="Occupation" required/> -->
+
+        <label>DONE</label>
+        <input type="checkbox" [(ngModel)]="newTask.Done" name="done" placeholder="done">
+        
+
+        
+
+
+        <button>ADD</button>
+
+    </form>

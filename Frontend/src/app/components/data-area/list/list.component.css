@@ -1,0 +1,15 @@
+table {
+    background-color: rgb(97, 7, 100);
+    color: white;
+    margin: auto;
+    border: 2px solid rgb(255, 0, 174);
+}
+ td{
+    padding: 20px;
+    border: 1px solid  rgb(255, 0, 174);
+ }
+
+ th {
+    border: 1px solid  rgb(255, 0, 174);
+    color: black
+ }

@@ -1,0 +1,8 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,25 @@
+form {
+    border: 10px solid rgb(214, 11, 123);
+    background-color: rgb(17, 14, 14);
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+input, select{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+ button {
+    border: 6px solid rgb(214, 11, 123);
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+ }
+
+ h3 {
+    color: rgb(214, 11, 123);;
+ }

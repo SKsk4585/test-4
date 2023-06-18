@@ -1,0 +1,23 @@
+<div>
+    
+    <table>
+        <thead>
+            <th>TASK</th>
+            <th>DESCRIPTION</th>
+            <th>DATE</th>
+            <th>Occupation</th>
+            <th>DONE</th>
+            <th>DELET</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of tasks">
+                <td>{{t.name}}</td>
+                <td>{{t.description}}</td>
+                <td>{{t.date | date: 'd/M/Y'}}</td>
+                <td>{{t.customer.Occupation}}</td>
+                <td>{{t.Done}}</td>
+                <td (click)="deleteTask(t._id)">❎</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
